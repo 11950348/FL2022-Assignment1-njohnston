@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+.card {
+    border-radius: 1rem;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(16px);
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icon-cog {
+    color: white;
+    /* I know changing the cursor is not best practice due to compatibility issues but I had to do this :) */
+    cursor: url('https://i.imgur.com/SM9uBom.png'), auto;
+}
+
+    .icon-cog:hover {
+        color: #F3CE13;
+    }
+
+#CoverArt {
+    /*Round edges for Requirement 2*/
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    /* More cursor stuff */
+    cursor: url('https://i.imgur.com/SM9uBom.png'), auto;
+}
+
+.centerCoverArt {
+    margin: 0;
+    position: absolute;
+}
